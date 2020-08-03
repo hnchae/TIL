@@ -60,9 +60,18 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```bash
 $ git add .
 $ git status
+On branch master
+
+No commits yet
+# 커밋될 변경사항들
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   git.md
+        new file:   "markdown-images/\354\272\241\354\262\230.PNG"
+        new file:   markdown.md
 ```
 
-* add 명령어는 아래와 같이 활용된ㄷ.
+* add 명령어는 아래와 같이 활용된다.
 
   ```bash
   $ git add . # 현재 디렉토리 전부
@@ -83,6 +92,13 @@ $ git status
   
   ```
 
+  ```python
+  $ git status
+  On branch master
+  # 커밋할 것도 없고, 작업한 것도 없습니다.
+  nothing to commit, working tree clean
+  ```
+  
   
 
 ##`log`

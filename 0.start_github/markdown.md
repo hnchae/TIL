@@ -33,7 +33,7 @@ H6, 제목을 6단계까지 구분하여 작성할 수 있다.
 
 
 
-## 코드블록
+## 코드블록(```)
 
 ```python
 import random
@@ -44,7 +44,7 @@ print(random.sample(numbers, 6))
 
 다양한 프로그래밍 언어에 대한 syntax highlighting 기능을 접할수 있다.
 
-```
+```python
 <h1>
 	안녕
 	import random
@@ -53,7 +53,7 @@ print(random.sample(numbers, 6))
 
 
 
-### 인라인 코드블록
+### 인라인 코드블록(`)
 
 인라인 코드 블록은 아래와 같이 활용될 수 있다.
 
@@ -93,6 +93,8 @@ print(random.sample(numbers, 6))
 
 
 
+
+## 표
 | 순번 | 이름   |
 | ---- | ------ |
 | 1    | 홍길동 |
