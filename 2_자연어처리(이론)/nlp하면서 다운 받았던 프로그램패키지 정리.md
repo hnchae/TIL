@@ -16,8 +16,12 @@
 	nltk.download()
 		=> book 선택 후 다운로드
 		
-		
 ```
+
+![image-20200831234404654](C:\Users\johc5\AppData\Roaming\Typora\typora-user-images\image-20200831234404654.png)
+
+
+
 
 ## 2. okt 설치하기 위해
 
